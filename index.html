@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <img src="./logo.png" alt="logo of zegame">
+            </div>
+        </div>
+        <div class="right">
+            <form action="">
+                <h1>Sign up to join the academy now</h1>
+                <div class="wrapper">
+                    <fieldset>
+                        <legend>Enter your informations</legend>
+                        <div class="duos">
+                            <div>
+                                <label for="fullname">Full Name *</label><br>
+                                <input type="text" id="fullname" name="fullname" placeholder="Ex: Khalid Salami" required>
+                            </div>
+                            <div>
+                                <label for="gamerid">Gamer name</label><br>
+                                <input type="text" id="gamerid" name="gamerid" placeholder="Ex: mate2sans29">
+                            </div>
+                        </div>
+
+                        <div class="duos">
+                            <div>
+                                <label for="email">Email *</label><br>
+                                <input type="email" id="email" name="email" placeholder="Ex: abc@xyz.com" required>
+                            </div>
+                            <div>
+                                <label for="phone-number">Phone number</label><br>
+                                <input type="number" id="phone-number" name="phone-number" placeholder="0191234567">
+                            </div>
+                        </div>
+                        <div class="duos">
+                            <div>
+                                <label for="password">Password</label><br>
+                                <input type="password" id="password" name="password" required minlength="8">
+                            </div>
+                            <div>
+                                <label for="confirm-password">Confirm Password</label><br>
+                                <input type="password" id="confirm-password" name="confirm-password" required minlength="8">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
