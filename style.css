@@ -4,6 +4,7 @@
     --third-clr: #080A41;
     --frth-clr: #C499EE;
     --light-clr: #F9F8F8;
+    --ft-clr: #EEF7FC;
 }
 
 body {
@@ -25,6 +26,8 @@ body {
 }
 
 .left {
+    display: flex;
+    flex-direction: column;
     background-image: url(./ella-don-fK5Oomnc-Wk-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,4 +133,16 @@ input:valid {
 
 [type="password"]:invalid {
     border-color: red;
+}
+
+footer {
+    color: var(--ft-clr);
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: inherit;
 }
